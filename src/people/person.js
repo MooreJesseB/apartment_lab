@@ -3,6 +3,4 @@ function Person(name, contact){
   this.contact = contact;
 };
 
-
-
 module.exports = Person;

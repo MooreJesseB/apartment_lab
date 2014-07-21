@@ -9,6 +9,8 @@ var Property = require('./property_types/property'),
 
 var Unit = require('./unit.js');
 
+var inherits = require('./inherits.js');
+
 // start our apartment module to export later
 var App = {};
 
@@ -27,5 +29,8 @@ App.ApartmentBuilding = ApartmentBuilding;
 
 // Export our unit
 App.Unit = Unit;
+
+// Export inherits function
+App.inherits = inherits;
 
 module.exports = App;
